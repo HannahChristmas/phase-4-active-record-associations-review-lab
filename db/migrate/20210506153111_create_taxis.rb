@@ -3,6 +3,7 @@ class CreateTaxis < ActiveRecord::Migration[6.1]
     create_table :taxis do |t|
 
       t.timestamps
+      
     end
   end
 end
